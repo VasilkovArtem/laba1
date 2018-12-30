@@ -1,0 +1,296 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    height: 97%;
+}
+
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(44, 44, 43);
+    text-align: center;
+    text-transform: capitalize; 
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+
+.main{
+    display: flex;
+    margin: auto;
+}
+
+.BlockTask10{
+    text-align: center;
+    height: 250px;
+    width: 150px;
+    margin: 10px 40px 20px 26px ;
+    padding: 15px ;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.task1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(118, 124, 93);
+    background:rgb(99, 32, 32);
+    position:relative;
+    outline: rgb(99, 32, 32) solid 0.3em;
+}
+.task2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(0, 255, 0);
+    background-color: rgb(255, 0, 0);
+}
+.task3 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4BCE54;
+    color:rgb(0, 180, 165);
+}
+
+.task4::first-line{
+    background-color: #fdbdf2;
+}
+.task4{
+    color: rgb(172, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.task5::first-line{
+    background-color: yellow;
+}
+.task5{
+    color: rgb(0, 255, 200);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.BlockTask11{
+    height: 250px;
+    width: 200px;
+    margin: 10px 40px 20px 18px ;
+    padding: 15px ;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.BlockTask12{
+    text-align: justify;
+    height: 250px;
+    width: 200px;
+    margin: 10px 40px 20px 18px ;
+    padding: 15px ;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.Indent{
+    margin-bottom: -15px;
+}
+
+.BlockTask13{
+    text-align: center;
+    height: 250px;
+    width: 150px;
+    margin: 10px 40px 20px 18px ;
+    padding: 15px ;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.youtubeLink{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid rgb(231, 221, 221);
+    border-radius: 4px; 
+    display: inline-block;
+    padding: 5px 15px; 
+    text-decoration: none; 
+    color: #000;
+     
+}
+.youtubeLink:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); 
+    background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+    color: rgb(214, 83, 203);
+}
+
+.youtubeLink span:nth-child(1) {color: #E33B21;}
+.youtubeLink span:nth-child(2) {color: #E33B21;}
+.youtubeLink span:nth-child(3) {color: #E33B21;}
+.youtubeLink span:nth-child(4) {color: #E33B21;}
+.youtubeLink span:nth-child(5) {color: #E33B21;}
+.youtubeLink span:nth-child(6) {color: #E33B21; font-style: italic;}
+
+
+.YandexLink {
+    font-family: Arial Narrow, Helvetica, sans-serif;
+    font-size: 30px;       
+    text-align: center;
+    border: 1px solid rgb(231, 221, 221);     
+    display: inline-block;
+    padding: 5px 15px; 
+    text-decoration: none; 
+    color: #000;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.YandexLink:first-letter{ 
+    color: #ff0000; 
+}
+ 
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+
+.button span {
+    color: #FF0000;
+    font-family: Garamond, Georgia, 'Times New Roman';
+    float: left;
+    font-weight: 0;            
+  }
+  .button span:nth-child(1) {
+    font-size: 30px;
+    margin: 0;
+  }
+  .button span:nth-child(2) {
+    font-size: 21px;
+    margin: 12px 0 0 -7px;
+  }
+  .button span:nth-child(3) {
+    font-size: 21px;
+    margin: 8px 0 0px -3px;
+  }
+  .button span:nth-child(4) {
+    font-size: 18px;
+    margin: 14px 0 0px -2px;
+  }
+  .button span:nth-child(5) {
+    font-size: 21px;
+    margin: 6px 0 0px -2px;
+  }
+
+  .button span:nth-child(6) {
+    font-size: 21px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 4px 0 0px -2px;
+    text-transform: none;
+  }
+
+.rutube{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    color: crimson;
+}
+
+.rutube:hover{ 
+color: rgb(60, 24, 219);
+ }
+
+ .spotify{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: large;
+     text-decoration: none;
+ }
+
+ .spotify:hover{
+    color: rgb(0, 248, 21);
+ }
+
+ .BlockTask14{
+    text-align: justify;
+    height: 250px;
+    width: 220px;
+    margin: 10px 40px 20px 18px ;
+    padding: 15px ;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.BlockTask14 ul{
+    list-style-image: url(PC.png);
+}
+
+.BlockTask14 ol{
+    padding: 1px 0px 0px 16px;
+}
+
+
+@-moz-document url-prefix() {
+    .task1 .task2
+    {
+        outline-offset:-0.04em;
+    }
+}
+
+.ImageBox{
+    display: flex;
+    margin: auto;
+}
+
+.IMG{    
+    margin: 10px 40px 20px 50px ;
+    padding: 15px ;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.IMG2{
+    margin: 10px 40px 20px 50px ;
+    padding: 20px ;
+    width: 80%;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.MomChild{
+    border-radius: 15px;
+}
+
+.customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: large;
+    
+}
+
+.customers td, .customers th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    text-align: center;
+    color: rgb(83, 83, 80);
+}
+
+.customers tr:nth-child(3){
+    background-color: #6cffd3;
+}
+.customers tr:nth-child(7){
+    background-color: #13adad;
+}
+
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;    
+    background-color: rgb(255, 205, 158);
+    color: rgb(83, 83, 80);
+    
+}
+
+.Embedded{
+    background-color: rgb(255, 251, 0);
+    color: rgb(83, 83, 80);
+}
